@@ -18,8 +18,8 @@ Motor controller:
 Fast model predictive control for nonlinear system:
 
 * Fisrt, the system will be linearizated at the current points and generate 20 matrix of A, B in next 20 nodes:
-** using classic Runge-Kutta method (RK4) to calculate next 20 variables of X.
-** Calculate A(k), B(k), k=0,...,N-1
+*    using classic Runge-Kutta method (RK4) to calculate next 20 variables of X.
+*    Calculate A(k), B(k), k=0,...,N-1
 ** saved
 * Second: Caculate Gradient and Hessian Matrix: in the last project, I used a large number of variables: N * (Nx+Nu)+Nx, so the controller is slowed down and could not control the system. In this project, I used condensing N2 to reduce number of variables: N*Nu.
 ** From the result above ( A(k), B(k), X(k)) I calculated the Hessian and Gradient matrix with use the control variables u as the optimization variables.
@@ -33,17 +33,15 @@ Control of ball on plate using model predictive control with sequential quadrati
 
 ### Prerequisites
 Software:
-```
+
 * [Visual Studio] (https://visualstudio.microsoft.com/downloads/) - Visual Studio 2017
 * [qpOASES](https://projects.coin-or.org/qpOASES) - QP solver
 * [Opencv 3.3.1](https://opencv.org/releases.html)- opencv
-```
 Hardware:
-```
+
 * [Stm32H7 Nucleo](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) - the Motor controller
 * [TB6560](https://www.google.com/search?q=TB6560&rlz=1C1CHBF_enVN806VN806&oq=TB6560&aqs=chrome..69i57j69i60j69i59l3.2159j0j4&sourceid=chrome&ie=UTF-8)
 * ...
-```
 
 ## Running the tests
 
@@ -82,7 +80,7 @@ This project is made from my old projects (deleted). This is the ... I don't kno
 
 ## Authors
 
-* **Poloko** - *Initial work* - [PurpleBooth](https://github.com/poloko159)
+* **Poloko** - *Initial work* - [Poloko](https://github.com/poloko159)
 
 Just the nickname, I will post my information later
 
@@ -90,7 +88,7 @@ Just the nickname, I will post my information later
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Just the copy, but if you want to use it, you will have to contact me to get the full code of the source and GUi ( made by QT)
+Just the copy script in the internet, just look awesome ))
 
 ## Acknowledgments
 
