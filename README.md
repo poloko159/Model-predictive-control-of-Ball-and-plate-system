@@ -17,14 +17,14 @@ Motor controller:
 
 Fast model predictive control for nonlinear system:
 
-* Fisrt, the system will be linearizated at the current points and generate 20 matrix of A, B in next 20 nodes:
+Fisrt, the system will be linearizated at the current points and generate 20 matrix of A, B in next 20 nodes:
 *    using classic Runge-Kutta method (RK4) to calculate next 20 variables of X.
 *    Calculate A(k), B(k), k=0,...,N-1
-** saved
-* Second: Caculate Gradient and Hessian Matrix: in the last project, I used a large number of variables: N * (Nx+Nu)+Nx, so the controller is slowed down and could not control the system. In this project, I used condensing N2 to reduce number of variables: N*Nu.
-** From the result above ( A(k), B(k), X(k)) I calculated the Hessian and Gradient matrix with use the control variables u as the optimization variables.
-** then, the qpoases used to solve the quadratic function with constrains
-** last step: upload the u and apply the first u to system
+*    saved
+Second: Caculate Gradient and Hessian Matrix: in the last project, I used a large number of variables: N * (Nx+Nu)+Nx, so the controller is slowed down and could not control the system. In this project, I used condensing N2 to reduce number of variables: N*Nu.
+* From the result above ( A(k), B(k), X(k)) I calculated the Hessian and Gradient matrix with use the control variables u as the optimization variables.
+* then, the qpoases used to solve the quadratic function with constrains
+* last step: upload the u and apply the first u to system
 The ball tracking with opencv is very simple so there is no discuss about it.
 
 ## Getting Started
@@ -34,31 +34,26 @@ Control of ball on plate using model predictive control with sequential quadrati
 ### Prerequisites
 Software:
 
-* [Visual Studio] (https://visualstudio.microsoft.com/downloads/) - Visual Studio 2017
+* [Visual Studio](https://visualstudio.microsoft.com/downloads/) - Visual Studio 2017
 * [qpOASES](https://projects.coin-or.org/qpOASES) - QP solver
 * [Opencv 3.3.1](https://opencv.org/releases.html)- opencv
 Hardware:
 
 * [Stm32H7 Nucleo](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) - the Motor controller
 * [TB6560](https://www.google.com/search?q=TB6560&rlz=1C1CHBF_enVN806VN806&oq=TB6560&aqs=chrome..69i57j69i60j69i59l3.2159j0j4&sourceid=chrome&ie=UTF-8)
-* ...
+* [Webcam a4tech PK 720G](https://www.google.com/search?q=webcam+a4tech+PK+720G&rlz=1C1CHBF_enVN806VN806&oq=webcam+a4tech+&aqs=chrome.1.69i59l3.16687j0j1&sourceid=chrome&ie=UTF-8)
+
 
 ## Running the tests
 
 In my full project, I will use a GUI made by QT tool in visual studio 2017 with this project to display and control system
 
-### Break down into end to end tests
+The tests are controlling the ball which has the trajectories:
 
-nothing to post here
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
+* Rectangle
+* Circle
+* Stable at the known point
+* As many as I can make
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
