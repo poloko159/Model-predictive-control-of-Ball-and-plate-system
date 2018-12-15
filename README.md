@@ -102,3 +102,7 @@ Solidworks:
 ![sl](https://user-images.githubusercontent.com/30334192/50046576-0a76bb00-00d8-11e9-94cb-2e34b610dc48.png)
 
 ![sl2](https://user-images.githubusercontent.com/30334192/50046574-09de2480-00d8-11e9-9ec7-2bdbd5ecb475.png)
+
+## Video
+
+https://www.youtube.com/watch?v=fuhWEWtDuGo&feature=youtu.be
