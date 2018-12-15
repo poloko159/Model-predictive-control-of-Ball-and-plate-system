@@ -1,0 +1,32 @@
+﻿  AB.cpp
+d:\acado\mine\try_run_3\try_run_3\ab.cpp(158): warning C4101: 'k': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\ab.cpp(158): warning C4101: 'j': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\ab.cpp(165): warning C4101: 'k': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\ab.cpp(165): warning C4101: 'j': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\ab.cpp(172): warning C4101: 'k': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\ab.cpp(172): warning C4101: 'j': unreferenced local variable
+  Source.cpp
+d:\acado\mine\try_run_3\try_run_3\source.cpp(16): warning C4101: 'm': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\source.cpp(16): warning C4101: 'k': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\source.cpp(16): warning C4101: 'l': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\source.cpp(16): warning C4101: 'j': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\source.cpp(16): warning C4101: 'n': unreferenced local variable
+  condensing_block.cpp
+d:\acado\mine\try_run_3\try_run_3\condensing_block.cpp(6): warning C4101: 'k': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\condensing_block.cpp(6): warning C4101: 'j': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\condensing_block.cpp(21): warning C4101: 'k': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\condensing_block.cpp(35): warning C4101: 'k': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\condensing_block.cpp(35): warning C4101: 'j': unreferenced local variable
+d:\acado\mine\try_run_3\try_run_3\condensing_block.cpp(35): warning C4101: 'i': unreferenced local variable
+  cost_function.cpp
+  gradient_u.cpp
+d:\acado\mine\try_run_3\try_run_3\gradient_u.cpp(46): warning C4101: 's': unreferenced local variable
+  initial_value.cpp
+  inverse_kinematics.cpp
+  lifted_newton.cpp
+  matrix_cal.cpp
+  predict.cpp
+  runge_kutta.cpp
+  uti.cpp
+  Generating Code...
+  Try_run_3.vcxproj -> D:\Acado\mine\Try_run_3\x64\Debug\Try_run_3.exe

@@ -1,0 +1,12 @@
+﻿  AB.cpp
+  cost_function.cpp
+  gradient_u.cpp
+d:\acado\mine\try_run_3\try_run_3\gradient_u.cpp(46): warning C4101: 's': unreferenced local variable
+  predict.cpp
+  runge_kutta.cpp
+  Source.cpp
+c:\users\thien\documents\opencv\opencv\build\include\opencv2\flann\saving.h(99): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  initial_value.cpp
+  lifted_newton.cpp
+  uti.cpp
