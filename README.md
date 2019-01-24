@@ -63,7 +63,7 @@ Add additional notes about how to deploy this on a live system
 * Visual studio 2017
 * Opencv 331
 * STM32H7 Nucleo
-* Logitech Webcam webcam a4tech PK 720G ( will buy another if I have better budget)
+* Logitech Webcam webcam a4tech PK 720G
 * Stepper motor, ...
 
 ## Contributing
