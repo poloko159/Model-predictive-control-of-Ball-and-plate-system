@@ -3,7 +3,7 @@
 Model predictive control of Ball and plate system
 
 ## In this project:
-I have used many tools such as ACADO, Matlab MPC toolbox, MPT. However, I make this project because I like the MPC and I want to understand how exactly MPC works, also I want to make it myself.
+I have used many tools such as ACADO, Matlab MPC toolbox, MPT. However, I make this project because I like the MPC and I want to understand how exactly NMPC works, also I want to make it myself.
 
 Motor controller:
 * 3 stepper motors with driven by 3 Tb6560 modules and a STM32H7 nucleo (microstep mode: 1/16):
