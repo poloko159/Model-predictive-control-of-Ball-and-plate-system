@@ -21,7 +21,7 @@ Fisrt, the system will be linearizated at the current points and generate 20 mat
 *    using classic Runge-Kutta method (RK4) to calculate next 20 variables of X.
 *    Calculate A(k), B(k), k=0,...,N-1
 *    saved
-Second: Caculate Gradient and Hessian Matrix: in the last project, I used a large number of variables: N * (Nx+Nu)+Nx, so the controller is slowed down and could not control the system. In this project, I used condensing N2 to reduce number of variables: N*Nu.
+*    Second: Caculate Gradient and Hessian Matrix: in the last project, I used a large number of variables: N * (Nx+Nu)+Nx, so the controller is slowed down and could not control the system. In this project, I used condensing N2 to reduce number of variables: N*Nu.
 * From the result above ( A(k), B(k), X(k)) I calculated the Hessian and Gradient matrix with use the control variables u as the optimization variables.
 * then, the qpoases used to solve the quadratic function with constrains
 * last step: upload the u and apply the first u to system
