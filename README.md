@@ -50,7 +50,6 @@ In my full project, I will use a GUI made by QT tool in visual studio 2017 with 
 
 The tests are controlling the ball which has the trajectories:
 
-* Rectangle
 * Circle
 * Stable at the known point
 * As many as I can make
@@ -66,29 +65,20 @@ Add additional notes about how to deploy this on a live system
 * Logitech Webcam webcam a4tech PK 720G
 * Stepper motor, ...
 
-## Contributing
-In the future, I will write a paper about my project.
+## Public
+In coming ...
 
 ## Versioning
 
-This project is made from my old projects (deleted). This is the ... I don't know, may be 26th.
+This project is made from my old projects (deleted).
 
 ## Authors
 
 * **Poloko** - *Initial work* - [Poloko](https://github.com/poloko159)
 
-Just the nickname, I will post my information later
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-Just the copy script in the internet, just look awesome ))
-
 ## Acknowledgments
 
 * Thank to Google, Wiki, Github, ..., I can make this project.
-* In the future, I will make a Quadcopter which using MPC
 * Special thanks to the many lecture videos, books and paper about MPC
 
 ## IMAGE:
