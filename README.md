@@ -93,6 +93,9 @@ Solidworks:
 
 ![sl2](https://user-images.githubusercontent.com/30334192/50046574-09de2480-00d8-11e9-9ec7-2bdbd5ecb475.png)
 
+REAL MODEL:
+![rm1](https://user-images.githubusercontent.com/30334192/54963748-73ee4b80-4f9c-11e9-92e3-77b446dd5b97.jpg)
+
 ## Video
 
 https://www.youtube.com/watch?v=fuhWEWtDuGo&feature=youtu.be
