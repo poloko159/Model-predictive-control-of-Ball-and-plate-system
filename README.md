@@ -18,13 +18,13 @@ Motor controller:
 Fast model predictive control for nonlinear system:
 
 For loop:
-*     Using classic Runge-Kutta method (RK4) to calculate next 20 variables of X based on initial input U.
-*     Generate cost function and constrain funtions. 
-*     Evalute the cost funtion. If the input is satisfied: breed the for Loop and apply the input to the system.
-*     Caculate Gradient ( Numerical differentiation) and Hessian Matrix ( Gauss-Newton approximation): ( in the last project, I used a large number of variables: N * (Nx+Nu)+Nx, so the controller was very slow, thus in this project, I used number of free variables: N*Nu.)
-*     Solve the optimization using qpOASES
-*     Update U
-*     Repeat the loop.
+* Using classic Runge-Kutta method (RK4) to calculate next 20 variables of X based on initial input U.
+* Generate cost function and constrain funtions. 
+* Evalute the cost funtion. If the input is satisfied: breed the for Loop and apply the input to the system.
+* Caculate Gradient ( Numerical differentiation) and Hessian Matrix ( Gauss-Newton approximation): ( in the last project, I used a large number of variables: N * (Nx+Nu)+Nx, so the controller was very slow, thus in this project, I used number of free variables: N*Nu.)
+* Solve the optimization using qpOASES
+* Update U
+* Repeat the loop.
 The ball tracking with opencv is very simple so there is no discuss about it.
 
 ## Getting Started
