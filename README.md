@@ -58,11 +58,11 @@ The tests are controlling the ball which has the trajectories:
 Add additional notes about how to deploy this on a live system
 
 ## Built With
-
+* QT VS tool (GUI)
 * Visual studio 2017
 * Opencv 331
 * STM32H7 Nucleo
-* Logitech Webcam webcam a4tech PK 720G
+* Logitech Webcam
 * Stepper motor, ...
 
 ## Public
