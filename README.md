@@ -78,8 +78,8 @@ This project is made from my old projects (deleted).
 
 ## Acknowledgments
 
-* Thank to Google, Wiki, Github, ..., I can make this project.
-* Special thanks to the many lecture videos, books and paper about MPC
+* Special thanks to teacher, who tell me about MPC, I like it, so interesting.
+* Thank to Google, Wiki, Github, many lecture videos, books and paper about MPC ..., I can make this project.
 
 ## IMAGE:
 
