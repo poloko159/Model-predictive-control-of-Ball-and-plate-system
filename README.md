@@ -37,6 +37,7 @@ Software:
 * [Visual Studio](https://visualstudio.microsoft.com/downloads/) - Visual Studio 2017
 * [qpOASES](https://projects.coin-or.org/qpOASES) - QP solver
 * [Opencv 3.3.1](https://opencv.org/releases.html)- opencv
+
 Hardware:
 
 * [Stm32H7 Nucleo](https://www.st.com/en/evaluation-tools/nucleo-h743zi.html) - the Motor controller
