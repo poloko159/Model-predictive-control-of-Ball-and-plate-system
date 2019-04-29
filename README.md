@@ -74,7 +74,7 @@ This project is made from my old projects (deleted).
 
 ## Authors
 
-* **Poloko** - *Initial work* - [Poloko](https://github.com/poloko159)
+* **Nguyen Thien Phuoc** - *Initial work* - [Poloko](https://github.com/poloko159)
 
 ## Acknowledgments
 
